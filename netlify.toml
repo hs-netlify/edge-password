@@ -1,0 +1,7 @@
+[[edge_functions]]
+   path='/create-token'
+   function='create-token'
+   
+[[edge_functions]]
+   path='/*'
+   function='password-protection'
