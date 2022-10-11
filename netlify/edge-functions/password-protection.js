@@ -20,7 +20,7 @@ const validateJWT = (token, secret) => {
 };
 
 const handler = async (request, context) => {
-  const password = Deno.env.get("passowrd");
+  const password = Deno.env.get("password");
   if (password) {
     const jwtCookie = context.cookies.get("jwt");
 
