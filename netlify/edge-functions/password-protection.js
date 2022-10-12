@@ -1,4 +1,3 @@
-import { encode } from "https://deno.land/std/encoding/base64url.ts";
 import { HmacSha256 } from "https://deno.land/std/hash/sha256.ts";
 import { decode } from "https://deno.land/std/encoding/base64url.ts";
 import passwordPage from "../../pages/password-page.js";
